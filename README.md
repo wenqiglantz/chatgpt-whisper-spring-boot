@@ -1,5 +1,5 @@
 # chatgpt-whisper-spring-boot
-A demo app to show how to integrate ChatGPT and Whisper API into Spring Boot Microservice.  Please check out my Medium article for details. Link to come.
+A demo app to show how to integrate ChatGPT and Whisper API into Spring Boot Microservice.  Please check out my Medium article for details: https://betterprogramming.pub/integrating-chatgpt-and-whisper-apis-into-spring-boot-microservice-5545e2ea44fc?sk=4160425921a4809d4938c42b161b6f7a.
 
 ### API Key
 Be sure to add your OpenAI API Key to application.yml, replace the existing placeholder on line 7 "################" with your API key.
