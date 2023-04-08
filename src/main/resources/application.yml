@@ -23,6 +23,13 @@ logging:
 spring:
   jackson:
     default-property-inclusion: NON_NULL
+  cloud:
+    openfeign:
+      client:
+        config:
+          openai-service:
+            connectTimeout: 160000
+            readTimeout: 160000
 
 management:
   endpoints:
