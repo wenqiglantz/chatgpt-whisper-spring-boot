@@ -44,7 +44,7 @@ jobs:
         with:
           egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
-      - uses: fastify/github-action-merge-dependabot@d88a8705233a11bd65e08c7b22502e9360bd0e4c # v3.6.3
+      - uses: fastify/github-action-merge-dependabot@30f9b6fea5f9c45fa995083206ce4f14f08c540f # v3.6.4
         if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
